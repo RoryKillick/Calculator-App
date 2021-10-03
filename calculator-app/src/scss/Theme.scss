@@ -1,7 +1,68 @@
 p {
     text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: $padding;
+    margin: $margin;
+}
+
+.theme {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 nav {
     display: flex;
+    flex-direction: row;
+    width: 20%;
 }
+
+.theme-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $second-bgr-color;
+    height: 1rem;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+
+.custom-radio-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-radio-button input {
+    display: none;
+}
+
+.custom-radio-button .checkmark{
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    background-color: $red;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.custom-radio-button input:checked + .checkmark {
+    opacity: 1;
+    display: inline-block;
+ }
+ 
+/*.button-container {
+    background-color: $second-bgr-color;
+    width: 100%;
+    height: 1rem;
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+
+
+}*/

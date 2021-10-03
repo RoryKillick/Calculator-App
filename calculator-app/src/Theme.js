@@ -1,14 +1,23 @@
-import React from 'react'
+import React from 'react';
 
 function Theme() {
     return (
-        <div>
+        <div className='theme'>
             <p>Theme</p>
-            <nav>
-                <p>1</p>
-                <p>2</p>
-                <p>3</p>
-            </nav>
+            <div className='theme-toggle'>
+                <label className='custom-radio-button'>
+                    <input id='1' name='toggle-state' type='radio' defaultChecked/>
+                    <span className='checkmark'></span>
+                </label>
+                <label className='custom-radio-button'>
+                    <input id='2' name='toggle-state' type='radio'/>
+                    <span className='checkmark'></span>
+                </label>
+                <label className='custom-radio-button'>
+                    <input id='3' name='toggle-state' type='radio'/>
+                    <span className='checkmark'></span>
+                </label>
+            </div>
         </div>
     )
 }
