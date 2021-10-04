@@ -1,4 +1,4 @@
-p {
+.title {
     text-transform: uppercase;
     font-size: 0.8rem;
     padding: $padding;
@@ -16,6 +16,14 @@ nav {
     display: flex;
     flex-direction: row;
     width: 20%;
+}
+
+.numbers {
+    font-size: 0.7rem;
+    //letter-spacing: 0.15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .theme-toggle {
