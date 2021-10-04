@@ -8,7 +8,7 @@ import "./scss/App.scss";
 
 function App() {
   return (
-    <div className='container'>
+    <div className='app'>
       <Header/>
       <Screen/>
       <Main/>

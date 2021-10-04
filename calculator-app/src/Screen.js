@@ -2,7 +2,7 @@ import React from 'react'
 
 function Screen() {
     return (
-        <div className='result'>
+        <div className='screen'>
             399,981
         </div>
     )

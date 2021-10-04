@@ -1,5 +1,6 @@
 @import './variables.scss';
 @import './Header.scss';
+@import './Main.scss';
 @import './Theme.scss';
 @import './Screen.scss';
 
@@ -12,7 +13,7 @@ body {
     box-sizing: border-box;
 }
 
-.container {
+.app {
     display: flex;
     flex-direction: column;
     align-items: center;

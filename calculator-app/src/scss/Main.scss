@@ -1,0 +1,26 @@
+.container {
+    //use css grid tomorrow!
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //align-items: center;
+    width: 80%;
+    background-color: $third-bgr-color;
+    font-size: 2rem;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.key {
+    width: 25%;
+    background-color: $first-grey;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
