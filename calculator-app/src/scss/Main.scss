@@ -1,9 +1,8 @@
 .container {
     //use css grid tomorrow!
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    //align-items: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
     width: 80%;
     background-color: $third-bgr-color;
     font-size: 2rem;
@@ -12,15 +11,44 @@
     border-radius: 0.5rem;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .key {
-    width: 25%;
+    color: $third-dark-blue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     background-color: $first-grey;
     margin: 0.5rem;
     padding: 0.5rem;
+    border-radius: 10%;
+    box-shadow: 0 0.2rem $second-grey;
+}
+
+.keyDel {
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $first-dark-blue;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 10%;
+    font-size: 1rem;
+    box-shadow: 0 0.2rem $second-dark-blue;
+}
+
+.keyReset {
+    color: $white;
+    background-color: $first-dark-blue;
+    box-shadow: 0 0,2rem $second-dark-blue;
+    border-radius: 10%;
+    font-size: 1rem;
+}
+
+.keyEquals {
+    color: $white;
+    background-color: $first-dark-blue;
+    box-shadow: 0 0,2rem $second-dark-blue;
+    border-radius: 10%;
+    font-size: 1rem;
 }
