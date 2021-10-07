@@ -20,8 +20,9 @@
     background-color: $first-grey;
     margin: 0.5rem;
     padding: 0.5rem;
-    border-radius: 0.2em;
+    border-radius: 0.1em;
     box-shadow: 0 0.2rem $second-grey;
+    font-size: 2rem;
 }
 
 .keyDel {
@@ -32,7 +33,7 @@
     background-color: $first-dark-blue;
     margin: 0.5rem;
     padding: 0.5rem;
-    border-radius: 0.2em;
+    border-radius: 0.1em;
     font-size: 1rem;
     box-shadow: 0 0.2rem $second-dark-blue;
 }
@@ -40,15 +41,21 @@
 .keyReset {
     color: $white;
     background-color: $first-dark-blue;
-    box-shadow: 0 0,2rem $second-dark-blue;
-    border-radius: 0.2em;
+    box-shadow: 0 0,2em $second-dark-blue;
+    border-radius: 0.1em;
     font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .keyEquals {
     color: $white;
-    background-color: $first-dark-blue;
-    box-shadow: 0 0,2rem $second-dark-blue;
-    border-radius: 0.2em;
+    background-color: $red;
+    box-shadow: 0 0,2em $dark-red;
+    border-radius: 0.1em;
     font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
