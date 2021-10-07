@@ -20,7 +20,7 @@
     background-color: $first-grey;
     margin: 0.5rem;
     padding: 0.5rem;
-    border-radius: 10%;
+    border-radius: 0.2em;
     box-shadow: 0 0.2rem $second-grey;
 }
 
@@ -32,7 +32,7 @@
     background-color: $first-dark-blue;
     margin: 0.5rem;
     padding: 0.5rem;
-    border-radius: 10%;
+    border-radius: 0.2em;
     font-size: 1rem;
     box-shadow: 0 0.2rem $second-dark-blue;
 }
@@ -41,7 +41,7 @@
     color: $white;
     background-color: $first-dark-blue;
     box-shadow: 0 0,2rem $second-dark-blue;
-    border-radius: 10%;
+    border-radius: 0.2em;
     font-size: 1rem;
 }
 
@@ -49,6 +49,6 @@
     color: $white;
     background-color: $first-dark-blue;
     box-shadow: 0 0,2rem $second-dark-blue;
-    border-radius: 10%;
+    border-radius: 0.2em;
     font-size: 1rem;
 }
