@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25% 25%;
+    //justify-content: stretch;
     width: 80%;
     background-color: $third-bgr-color;
     font-size: 2rem;
@@ -38,15 +39,18 @@
     box-shadow: 0 0.2rem $second-dark-blue;
 }
 
+// use repeat wds
 .keyReset {
     color: $white;
     background-color: $first-dark-blue;
     box-shadow: 0 0,2em $second-dark-blue;
     border-radius: 0.1em;
     font-size: 1rem;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    grid-row-start:  5;
+    grid-column-start: 1;
 }
 
 .keyEquals {
@@ -55,7 +59,9 @@
     box-shadow: 0 0,2em $dark-red;
     border-radius: 0.1em;
     font-size: 1rem;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    grid-row-start: 5;
+    grid-column-start: 3;
 }
