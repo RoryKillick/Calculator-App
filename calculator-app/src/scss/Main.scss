@@ -43,7 +43,7 @@
 .keyReset {
     color: $white;
     background-color: $first-dark-blue;
-    box-shadow: 0 0,2em $second-dark-blue;
+    box-shadow: 0 0.2em $second-dark-blue;
     border-radius: 0.1em;
     font-size: 1rem;
     /* display: flex;
@@ -56,7 +56,7 @@
 .keyEquals {
     color: $white;
     background-color: $red;
-    box-shadow: 0 0,2em $dark-red;
+    box-shadow: 0 0.2em $dark-red;
     border-radius: 0.1em;
     font-size: 1rem;
     /* display: flex;
