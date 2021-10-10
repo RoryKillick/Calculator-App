@@ -16,6 +16,13 @@ body {
 .app {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    //justify-content: flex-end;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+@media  (min-width: 641px){
+    .app {
+        width: 641px;
+    }
 }
