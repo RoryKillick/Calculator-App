@@ -3,10 +3,10 @@ import Theme from './Theme';
 
 function Header() {
     return (
-        <div className='header'>
-            <h1>calc</h1>
-            <Theme/>
-        </div>
+            <div className='header'>
+                <h1>calc</h1>
+                <Theme/>
+            </div>
     )
 }
 

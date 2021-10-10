@@ -3,12 +3,10 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     width: 80%;
-    height: auto;
     background-color: $third-bgr-color;
     padding: 1.5rem;
-    margin: 1rem;
+    margin: 1rem auto;
     border-radius: 0.5rem;
-    align-self: stretch;
 }
 
 
